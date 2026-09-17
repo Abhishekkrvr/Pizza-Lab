@@ -20,3 +20,8 @@ html, body {
   background: rgba(36,26,20,0.15);
   border-radius: 999px;
 }
+
+@keyframes pizza-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}

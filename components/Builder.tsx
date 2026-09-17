@@ -97,7 +97,16 @@ export default function Builder() {
 
         {/* header */}
         <div className="absolute top-0 left-0 right-0 flex items-center justify-between px-5 sm:px-7 py-5">
-          <span className="font-display font-bold text-lg tracking-tight text-charcoal">
+          <span className="font-display font-bold text-lg tracking-tight text-charcoal flex items-center gap-2">
+            <span
+              className="inline-block text-2xl"
+              style={{
+                filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.15))",
+                animation: "pizza-spin 6s linear infinite",
+              }}
+            >
+              🍕
+            </span>
             Pizza Lab
           </span>
           <span

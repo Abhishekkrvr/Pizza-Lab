@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Pizza Lab — Build Your Own Pizza in 3D",
   description:
     "Pick your base, sauce, cheese and toppings, watch it come together in 3D, then bake it. See what the chef thinks of your combination.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
